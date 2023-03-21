@@ -1,6 +1,7 @@
 services:
   - type: pserv
     name: mongodb
+    plan: free
     env: docker
     autoDeploy: false
     disk:
